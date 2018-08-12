@@ -15,13 +15,13 @@
     <tbody>
         <tr>
             <td>Travis CI</td>
-            <td><a href="https://travis-ci.org/dilumaluthge/PredictMDFull.jl/branches">
+            <td><a href="https://travis-ci.com/DilumAluthge/PredictMDFull.jl/branches">
             <img
-            src="https://travis-ci.org/dilumaluthge/PredictMDFull.jl.svg?branch=master"
+            src="https://travis-ci.com/DilumAluthge/PredictMDFull.jl.svg?branch=master"
             /></a></td>
-            <td><a href="https://travis-ci.org/dilumaluthge/PredictMDFull.jl/branches">
+            <td><a href="https://travis-ci.com/DilumAluthge/PredictMDFull.jl/branches">
             <img
-            src="https://travis-ci.org/dilumaluthge/PredictMDFull.jl.svg?branch=develop"
+            src="https://travis-ci.com/DilumAluthge/PredictMDFull.jl.svg?branch=develop"
             /></a></td>
         </tr>
         <!--<tr>
