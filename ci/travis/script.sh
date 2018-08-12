@@ -4,10 +4,10 @@
 
 set -ev
 
-julia --check-bounds=yes --color=yes -e '
-    import Pkg;
-    Pkg.clone(pwd());
-    '
+# julia --check-bounds=yes --color=yes -e '
+#     import Pkg;
+#     Pkg.clone(pwd());
+#     '
 
 julia --check-bounds=yes --color=yes -e '
     import Pkg;
@@ -20,13 +20,8 @@ julia --check-bounds=yes --color=yes -e '
     '
 
 julia --check-bounds=yes --color=yes -e '
-
-    import Pkg;Pkg.test("PredictMDFull"; coverage=true);
-    '
-
-julia --check-bounds=yes --color=yes -e '
-
-    import Pkg;Pkg.add("Coverage");
+    import Pkg;
+    Pkg.test("PredictMDFull"; coverage=true);
     '
 
 julia --check-bounds=yes --color=yes -e '
