@@ -6,7 +6,7 @@ set -ev
 
 julia --check-bounds=yes --color=yes -e '
     import Pkg;
-    Pkg.clone(pwd(), "PredictMDFull");
+    Pkg.clone(pwd());
     '
 
 julia --check-bounds=yes --color=yes -e '
