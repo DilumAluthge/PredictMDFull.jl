@@ -39,20 +39,20 @@
             />
             </a></td>
         </tr>-->
-        <!--<tr>
+        <tr>
             <td>CodeCov</td>
             <td>
             <a
-            href="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master">
+            href="https://codecov.io/gh/DilumAluthge/PredictMDFull.jl/branch/master">
             <img
-            src="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master/graph/badge.svg"
+            src="https://codecov.io/gh/DilumAluthge/PredictMDFull.jl/branch/master/graph/badge.svg"
             /></a></td>
             <td>
             <a
-            href="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/develop">
-            <img src="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/develop/graph/badge.svg"
+            href="https://codecov.io/gh/DilumAluthge/PredictMDFull.jl/branch/develop">
+            <img src="https://codecov.io/gh/DilumAluthge/PredictMDFull.jl/branch/develop/graph/badge.svg"
             /></a></td>
-        </tr>-->
+        </tr>
     </tbody>
 </table>
 
