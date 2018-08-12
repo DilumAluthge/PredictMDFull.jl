@@ -8,14 +8,14 @@ git:
     depth: 99999999
 
 julia:
-    - 1.0
-    - nightly
+    - "1.0"
+    - "nightly"
 
 language: julia
 
 matrix:
     allow_failures:
-        - julia: nightly
+        - julia: "nightly"
     fast_finish: true
 
 notifications:
