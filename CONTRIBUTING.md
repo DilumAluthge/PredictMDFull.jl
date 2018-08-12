@@ -180,16 +180,18 @@ Make sure that you have followed all of the instructions
 in [Section 1 (Prerequisites)](#1-prerequisites).
 
 #### Step 2:
-Follow the installation instructions in
-[README.md](README.md) to install PredictMDFull.
-
-### Step 3:
-Open Julia and run the following line:
+Open Julia and run the following lines:
 ```julia
-import Pkg; Pkg.develop(Pkg.PackageSpec(url="https://github.com/DilumAluthge/PredictMDFull.jl"));
+import Pkg
+p = Pkg.PackageSpec(
+	name="PredictMDFull",
+	url="https://github.com/DilumAluthge/PredictMDFull.jl",
+	uuid="5c0c5c38-9dd5-11e8-3ab7-453bd9ce6c97",
+	)
+Pkg.develop(p)
 ```
 
-#### Step 4:
+#### Step 3:
 Open a terminal window and `cd` to the directory
 containing the PredictMDFull source code:
 
