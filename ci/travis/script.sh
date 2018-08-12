@@ -4,19 +4,9 @@
 
 set -ev
 
-# julia --check-bounds=yes --color=yes -e '
-#     import Pkg;
-#     Pkg.clone(pwd());
-#     '
+julia --check-bounds=yes --color=yes -e 'import Pkg; Pkg.build("PredictMDFull");'
 
-julia --check-bounds=yes --color=yes -e '
-    import Pkg;
-    Pkg.build("PredictMDFull");
-    '
-
-julia --check-bounds=yes --color=yes -e '
-    import PredictMDFull;
-    '
+julia --check-bounds=yes --color=yes -e 'import PredictMDFull;'
 
 julia --check-bounds=yes --color=yes -e '
     import Pkg;
