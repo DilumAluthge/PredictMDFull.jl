@@ -15,44 +15,44 @@
     <tbody>
         <tr>
             <td>Travis CI</td>
-            <td><a href="https://travis-ci.org/bcbi/PredictMD.jl/branches">
+            <td><a href="https://travis-ci.org/dilumaluthge/PredictMDFull.jl/branches">
             <img
-            src="https://travis-ci.org/bcbi/PredictMD.jl.svg?branch=master"
+            src="https://travis-ci.org/dilumaluthge/PredictMDFull.jl.svg?branch=master"
             /></a></td>
-            <td><a href="https://travis-ci.org/bcbi/PredictMD.jl/branches">
+            <td><a href="https://travis-ci.org/dilumaluthge/PredictMDFull.jl/branches">
             <img
-            src="https://travis-ci.org/bcbi/PredictMD.jl.svg?branch=develop"
+            src="https://travis-ci.org/dilumaluthge/PredictMDFull.jl.svg?branch=develop"
             /></a></td>
         </tr>
-        <tr>
+        <!--<tr>
             <td>AppVeyor CI</td>
             <td>
             <a
-            href="https://ci.appveyor.com/project/mirestrepo/predictmd-jl/history">
+            href="https://ci.appveyor.com/project/mirestrepo/predictmdfull-jl/history">
             <img
-            title="AppVeyor build status (master)" src="https://ci.appveyor.com/api/projects/status/github/bcbi/PredictMD.jl?branch=master&svg=true"
+            title="AppVeyor build status (master)" src="https://ci.appveyor.com/api/projects/status/github/bcbi/PredictMDFull.jl?branch=master&svg=true"
             />
             </a></td>
-            <td><a href="https://ci.appveyor.com/project/mirestrepo/predictmd-jl/history">
+            <td><a href="https://ci.appveyor.com/project/mirestrepo/predictmdfull-jl/history">
             <img
-            src="https://ci.appveyor.com/api/projects/status/github/bcbi/PredictMD.jl?branch=develop&svg=true"
+            src="https://ci.appveyor.com/api/projects/status/github/bcbi/PredictMDFull.jl?branch=develop&svg=true"
             />
             </a></td>
-        </tr>
-        <tr>
+        </tr>-->
+        <!--<tr>
             <td>CodeCov</td>
             <td>
             <a
-            href="https://codecov.io/gh/bcbi/PredictMD.jl/branch/master">
+            href="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master">
             <img
-            src="https://codecov.io/gh/bcbi/PredictMD.jl/branch/master/graph/badge.svg"
+            src="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master/graph/badge.svg"
             /></a></td>
             <td>
             <a
-            href="https://codecov.io/gh/bcbi/PredictMD.jl/branch/develop">
-            <img src="https://codecov.io/gh/bcbi/PredictMD.jl/branch/develop/graph/badge.svg"
+            href="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/develop">
+            <img src="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/develop/graph/badge.svg"
             /></a></td>
-        </tr>
+        </tr>-->
     </tbody>
 </table>
 
