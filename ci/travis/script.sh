@@ -15,7 +15,6 @@ julia --check-bounds=yes --color=yes -e '
     '
 
 julia --check-bounds=yes --color=yes -e '
-    import Pkg;
     import PredictMDFull;
     '
 
@@ -31,8 +30,18 @@ julia --check-bounds=yes --color=yes -e '
     Coverage.Codecov.submit(Coverage.Codecov.process_folder());
     '
 
-cat ~/.julia/environments/v1.0/Project.toml
+pwd
 
-cat ~/.julia/environments/v1.0/Manifest.toml
+ls -la
+
+ls -la ~/.julia
+
+ls -la ~/.julia/environments
+
+ls -la ~/.julia/environments/v1.0
+
+# cat ~/.julia/environments/v1.0/Project.toml
+
+# cat ~/.julia/environments/v1.0/Manifest.toml
 
 ##### End of file
