@@ -1,5 +1,7 @@
 <!-- Beginning of file -->
 
+# PredictMDFull - Install PredictMD and all of its dependencies
+
 # Main repository: [bcbi/PredictMD.jl](https://github.com/bcbi/PredictMD.jl)
 
 ---
@@ -8,7 +10,10 @@
 
 To install PredictMDFull, open Julia and run the following line:
 ```julia
-import Pkg; Pkg.add(Pkg.PackageSpec(url="https://github.com/DilumAluthge/PredictMDFull.jl", rev="master"));
+import Pkg;
+Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/DilumAluthge/PredictMDExtra.jl",));
+# Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/DilumAluthge/PredictMD.jl",));
+Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/DilumAluthge/PredictMDFull.jl",));
 ```
 
 ## CI/CD

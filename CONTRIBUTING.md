@@ -180,18 +180,20 @@ Make sure that you have followed all of the instructions
 in [Section 1 (Prerequisites)](#1-prerequisites).
 
 #### Step 2:
-Follow the installation instructions in
-[README.md](README.md) to install PredictMDFull.
-
-### Step 3:
-Open Julia and run the following line:
+Open Julia and run the following lines:
 ```julia
-import Pkg; Pkg.develop(Pkg.PackageSpec(url="https://github.com/DilumAluthge/PredictMDFull.jl"));
+import Pkg
+p = Pkg.PackageSpec(
+	name="PredictMDFull",
+	url="https://github.com/DilumAluthge/PredictMDFull.jl",
+	uuid="5c0c5c38-9dd5-11e8-3ab7-453bd9ce6c97",
+	)
+Pkg.develop(p)
 ```
 
-#### Step 4:
+#### Step 3:
 Open a terminal window and `cd` to the directory
-containing the PredictMD source code:
+containing the PredictMDFull source code:
 
 ```bash
 cd ~/.julia/dev/PredictMDFull
@@ -220,7 +222,7 @@ your GPG set-up is working.
 Release tags MUST be signed with your GPG key.**
 
 #### Step 1:
-Open a terminal window and `cd` to the directory containing the PredictMD source code:
+Open a terminal window and `cd` to the directory containing the PredictMDFull source code:
 
 ```bash
 cd ~/.julia/dev/PredictMDFull
@@ -350,7 +352,7 @@ them will have the correct commit message already filled in, e.g.
 "Merge branch ... into branch ...". In those cases, simply save the
 file, and quit the editor. One of the editors, however, will ask you
 to enter the message for the tag `v3.6.0`. In this editor, enter a
-reasonable release message (e.g. "PredictMD version 3.6.0"), save
+reasonable release message (e.g. "PredictMDFull version 3.6.0"), save
 the file, and close the editor.
 
 Once you have finished all of the commits and tags, you must verify
@@ -407,7 +409,7 @@ created, signed, and pushed. First, go to
 In the text box that reads "Tag version", type the name of the tag you
 just released. For our example, you would type "v3.6.0". Next, in the
 text box that reads "Release title", type an appropriate title, such
-as "PredictMD version 3.6.0". Finally, click the green
+as "PredictMDFull version 3.6.0". Finally, click the green
 "Publish release" button.
 
 #### Step 16:
