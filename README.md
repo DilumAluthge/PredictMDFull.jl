@@ -4,6 +4,8 @@
 
 # Main repository: [bcbi/PredictMD.jl](https://github.com/bcbi/PredictMD.jl)
 
+# Website: [https://www.predictmd.net](https://www.predictmd.net)
+
 ---
 
 ## Installation
