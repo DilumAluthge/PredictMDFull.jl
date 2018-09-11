@@ -4,6 +4,7 @@ authors = ["Dilum Aluthge <dilum@aluthge.com>"]
 version = "0.0.3-DEV"
 
 [deps]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PredictMDExtra = "d14d998a-9e6b-11e8-16d3-6f2879ea456d"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
