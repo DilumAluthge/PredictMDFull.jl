@@ -8,6 +8,8 @@ include(joinpath("package_directory.jl"))
 
 include(joinpath("version.jl"))
 
+include(joinpath("import_compat.jl"))
+
 include(joinpath("import_predictmdextra.jl"))
 
 include(joinpath("import_predictmd.jl"))
