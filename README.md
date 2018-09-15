@@ -31,13 +31,13 @@ Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/bcbi/PredictMDFull
     <tbody>
         <tr>
             <td>Travis CI</td>
-            <td><a href="https://travis-ci.com/bcbi/PredictMDFull.jl/branches">
+            <td><a href="https://travis-ci.org/bcbi/PredictMDFull.jl/branches">
             <img
-            src="https://travis-ci.com/bcbi/PredictMDFull.jl.svg?branch=master"
+            src="https://travis-ci.org/bcbi/PredictMDFull.jl.svg?branch=master"
             /></a></td>
-            <td><a href="https://travis-ci.com/bcbi/PredictMDFull.jl/branches">
+            <td><a href="https://travis-ci.org/bcbi/PredictMDFull.jl/branches">
             <img
-            src="https://travis-ci.com/bcbi/PredictMDFull.jl.svg?branch=develop"
+            src="https://travis-ci.org/bcbi/PredictMDFull.jl.svg?branch=develop"
             /></a></td>
         </tr>
         <!--<tr>
