@@ -13,9 +13,9 @@
 To install PredictMDFull, open Julia and run the following lines:
 ```julia
 import Pkg;
-Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/DilumAluthge/PredictMDExtra.jl",));
-# Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/DilumAluthge/PredictMD.jl",));
-Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/DilumAluthge/PredictMDFull.jl",));
+Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/bcbi/PredictMDExtra.jl",));
+# Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/bcbi/PredictMD.jl",));
+Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/bcbi/PredictMDFull.jl",));
 ```
 
 ## CI/CD
@@ -31,13 +31,13 @@ Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/DilumAluthge/Predi
     <tbody>
         <tr>
             <td>Travis CI</td>
-            <td><a href="https://travis-ci.com/DilumAluthge/PredictMDFull.jl/branches">
+            <td><a href="https://travis-ci.org/bcbi/PredictMDFull.jl/branches">
             <img
-            src="https://travis-ci.com/DilumAluthge/PredictMDFull.jl.svg?branch=master"
+            src="https://travis-ci.org/bcbi/PredictMDFull.jl.svg?branch=master"
             /></a></td>
-            <td><a href="https://travis-ci.com/DilumAluthge/PredictMDFull.jl/branches">
+            <td><a href="https://travis-ci.org/bcbi/PredictMDFull.jl/branches">
             <img
-            src="https://travis-ci.com/DilumAluthge/PredictMDFull.jl.svg?branch=develop"
+            src="https://travis-ci.org/bcbi/PredictMDFull.jl.svg?branch=develop"
             /></a></td>
         </tr>
         <!--<tr>
@@ -59,14 +59,14 @@ Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/DilumAluthge/Predi
             <td>CodeCov</td>
             <td>
             <a
-            href="https://codecov.io/gh/DilumAluthge/PredictMDFull.jl/branch/master">
+            href="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master">
             <img
-            src="https://codecov.io/gh/DilumAluthge/PredictMDFull.jl/branch/master/graph/badge.svg"
+            src="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master/graph/badge.svg"
             /></a></td>
             <td>
             <a
-            href="https://codecov.io/gh/DilumAluthge/PredictMDFull.jl/branch/develop">
-            <img src="https://codecov.io/gh/DilumAluthge/PredictMDFull.jl/branch/develop/graph/badge.svg"
+            href="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/develop">
+            <img src="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/develop/graph/badge.svg"
             /></a></td>
         </tr>
     </tbody>
