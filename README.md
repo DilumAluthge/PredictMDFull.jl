@@ -10,7 +10,7 @@
 
 ## Installation
 
-To install PredictMDFull, open Julia and run the following line:
+To install PredictMDFull, open Julia and run the following lines:
 ```julia
 import Pkg;
 Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/DilumAluthge/PredictMDExtra.jl",));
