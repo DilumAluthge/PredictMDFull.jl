@@ -3,6 +3,9 @@ uuid = "5c0c5c38-9dd5-11e8-3ab7-453bd9ce6c97"
 authors = ["Dilum Aluthge <dilum@aluthge.com>"]
 version = "0.0.3-DEV"
 
+[compat]
+julia = "^1.0.0"
+
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PredictMDExtra = "d14d998a-9e6b-11e8-16d3-6f2879ea456d"
