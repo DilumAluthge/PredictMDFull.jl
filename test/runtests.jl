@@ -1,6 +1,31 @@
-import PredictMDFull
+##### Beginning of file
+
+import InteractiveUtils
+import Pkg
 import Test
 
+@info(string("Julia depot paths: "), Base.DEPOT_PATH)
+
+@info(string("Julia version info: ",))
+InteractiveUtils.versioninfo(verbose=true)
+
+@info(string("Output of Pkg.status():",),)
+Pkg.status()
+
+@info(string("Output of Pkg.status(Pkg.Types.PKGMODE_PROJECT):",),)
+Pkg.status(Pkg.Types.PKGMODE_PROJECT)
+
+@info(string("Output of Pkg.status(Pkg.Types.PKGMODE_MANIFEST):",),)
+Pkg.status(Pkg.Types.PKGMODE_MANIFEST)
+
+@info(string("Output of Pkg.status(Pkg.Types.PKGMODE_COMBINED):",),)
+Pkg.status(Pkg.Types.PKGMODE_COMBINED)
+
+@info(string("Attempting to import PredictMDFull...",))
+import PredictMDFull
+@info(string("Successfully imported PredictMDFull.",))
+@info(string("PredictMDFull version: "),PredictMDFull.version(),)
+@info(string("PredictMDFull package directory: "),PredictMDFull.package_directory(),)
 
 Test.@testset "Unit tests           " begin
     testmodulea_filename::String = joinpath("TestModuleA", "TestModuleA.jl")
@@ -31,3 +56,5 @@ end
 Test.@testset "Import PredictMD     " begin
     include(joinpath("test_import_predictmd.jl"))
 end
+
+##### End of file
