@@ -49,10 +49,6 @@ Test.@testset "Unit tests           " begin
     include(joinpath("test_version.jl"))
 end
 
-Test.@testset "Import Compat" begin
-    include(joinpath("test_import_compat.jl"))
-end
-
 Test.@testset "Import PredictMDExtra" begin
     include(joinpath("test_import_predictmdextra.jl"))
 end

@@ -4,8 +4,6 @@ module PredictMDFull # Begin module PredictMDFull
 
 __precompile__(true)
 
-include(joinpath("import_compat.jl"))
-
 include(joinpath("package_directory.jl"))
 
 include(joinpath("version.jl"))
