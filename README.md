@@ -6,7 +6,9 @@
 
 # Website: [https://www.predictmd.net](https://www.predictmd.net)
 
----
+PredictMDFull provides users with a convenient way of installing [PredictMD](https://www.predictmd.net) and all of its Julia dependencies.
+
+Issues related to this repository should be submitted to the main PredictMD issue tracker: [https://github.com/bcbi/PredictMD.jl/issues](https://github.com/bcbi/PredictMD.jl/issues)
 
 ## Installation
 
