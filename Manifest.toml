@@ -123,12 +123,6 @@ git-tree-sha1 = "94d16e77dfacc59f6d6c1361866906dbb65b6f6b"
 uuid = "324d7699-5711-5eae-9e2f-1d82baa6b597"
 version = "0.5.2"
 
-[[ClassImbalance]]
-deps = ["DataFrames", "Distributions", "LinearAlgebra", "Pkg", "Random", "Statistics", "StatsBase", "Test"]
-git-tree-sha1 = "66ae80ca4298a262a69f9fcd947e22006374ff3c"
-uuid = "04a18a73-7590-580c-b363-eeca0919eb2a"
-version = "0.3.0"
-
 [[CodeTools]]
 deps = ["LNR", "Lazy", "Markdown", "Pkg", "Test", "Tokenize"]
 git-tree-sha1 = "b50b63d30896e1e969e9e7767d44c4d34878b416"
@@ -643,12 +637,6 @@ git-tree-sha1 = "75a54abd10709c01f1b86b84ec225d26e840ed58"
 uuid = "e89f7d12-3494-54d1-8411-f7d8b9ae1f27"
 version = "0.5.0"
 
-[[MemPool]]
-deps = ["DataStructures", "Distributed", "Mmap", "Random", "Serialization", "Sockets", "Test"]
-git-tree-sha1 = "d52799152697059353a8eac1000d32ba8d92aa25"
-uuid = "f9f48841-c794-520a-933b-121f7ba6ed94"
-version = "0.2.0"
-
 [[Metalhead]]
 deps = ["BSON", "ColorTypes", "Flux", "ImageFiltering", "Images", "REPL", "Requires", "Statistics", "Test"]
 git-tree-sha1 = "4f72ff737bafc31cc5378f8995e9bc108e012077"
@@ -795,12 +783,12 @@ uuid = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
 version = "0.5.0"
 
 [[PredictMDExtra]]
-deps = ["Atom", "AxisArrays", "CSV", "CSVFiles", "CUDAapi", "Cassette", "CategoricalArrays", "ClassImbalance", "Combinatorics", "DataDeps", "DataFrames", "DataFramesMeta", "DecisionTree", "DefaultApplication", "Documenter", "FileIO", "Flux", "GLM", "GPUArrays", "HTTP", "IndirectArrays", "IterableTables", "JLD2", "Knet", "LIBSVM", "Literate", "MLBase", "MbedTLS", "MemPool", "Metalhead", "Mux", "NamedArrays", "NumericalIntegration", "OnlineStats", "PGFPlotsX", "Pkg", "PooledArrays", "ProgressMeter", "Query", "RData", "RDatasets", "ROCAnalysis", "Requires", "Revise", "SplitApplyCombine", "Tables", "TextParse", "UnicodePlots", "ValueHistories", "WebSockets", "Zygote"]
-git-tree-sha1 = "f9e2f7c41d173a31650b6a5474630d77bbfa17bd"
-repo-rev = "feature/da/julia1.1"
+deps = ["Atom", "AxisArrays", "CSV", "CSVFiles", "CUDAapi", "Cassette", "CategoricalArrays", "Combinatorics", "Compat", "DataDeps", "DataFrames", "DataFramesMeta", "DecisionTree", "DefaultApplication", "Documenter", "FileIO", "Flux", "GLM", "GPUArrays", "HTTP", "IndirectArrays", "IterableTables", "JLD2", "Knet", "LIBSVM", "Literate", "MLBase", "MbedTLS", "Metalhead", "Mux", "NamedArrays", "NumericalIntegration", "OnlineStats", "PGFPlotsX", "Pkg", "PooledArrays", "ProgressMeter", "Query", "RData", "RDatasets", "ROCAnalysis", "Requires", "Revise", "SplitApplyCombine", "Tables", "TextParse", "UnicodePlots", "ValueHistories", "WebSockets", "Zygote"]
+git-tree-sha1 = "8cb250de1b147e09491707253612a14b6b441242"
+repo-rev = "master"
 repo-url = "https://github.com/bcbi/PredictMDExtra.jl"
 uuid = "d14d998a-9e6b-11e8-16d3-6f2879ea456d"
-version = "0.0.5-DEV"
+version = "0.0.4"
 
 [[Printf]]
 deps = ["Unicode"]
