@@ -2,11 +2,11 @@
 
 # PredictMDFull - Install PredictMD and all of its dependencies
 # Main repository: [bcbi/PredictMD.jl](https://github.com/bcbi/PredictMD.jl)
-# Website: [https://www.predictmd.net](https://www.predictmd.net)
+# Website: [https://predictmd.net](https://predictmd.net)
 
 <a href="https://www.repostatus.org/#wip"><img src="https://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public." /></a>
 
-PredictMDFull provides users with a convenient way of installing [PredictMD](https://www.predictmd.net) and all of its Julia dependencies.
+PredictMDFull provides users with a convenient way of installing [PredictMD](https://predictmd.net) and all of its Julia dependencies.
 
 Issues related to this repository should be submitted to the main PredictMD issue tracker: [https://github.com/bcbi/PredictMD.jl/issues](https://github.com/bcbi/PredictMD.jl/issues)
 
