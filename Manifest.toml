@@ -795,12 +795,12 @@ uuid = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
 version = "0.5.0"
 
 [[PredictMDExtra]]
-deps = ["Atom", "AxisArrays", "CSV", "CSVFiles", "CUDAapi", "Cassette", "CategoricalArrays", "ClassImbalance", "Combinatorics", "DataDeps", "DataFrames", "DataFramesMeta", "DecisionTree", "DefaultApplication", "Documenter", "FileIO", "Flux", "GLM", "GPUArrays", "HTTP", "IndirectArrays", "IterableTables", "JLD2", "Knet", "LIBSVM", "Literate", "MLBase", "MbedTLS", "MemPool", "Metalhead", "Mux", "NamedArrays", "NumericalIntegration", "OnlineStats", "PGFPlotsX", "Pkg", "PooledArrays", "ProgressMeter", "Query", "RData", "RDatasets", "ROCAnalysis", "Requires", "Revise", "SplitApplyCombine", "Tables", "TextParse", "UnicodePlots", "ValueHistories", "WebSockets", "Zygote"]
-git-tree-sha1 = "6cb20ab2528fb18bf87b7ceef857468692c0860a"
+deps = ["Atom", "AxisArrays", "CSV", "CSVFiles", "CUDAapi", "Cassette", "CategoricalArrays", "ClassImbalance", "Combinatorics", "DataDeps", "DataFrames", "DataFramesMeta", "DecisionTree", "DefaultApplication", "Documenter", "FileIO", "Flux", "GLM", "GPUArrays", "HTTP", "IndirectArrays", "InteractiveUtils", "IterableTables", "JLD2", "Knet", "LIBSVM", "Literate", "MLBase", "MbedTLS", "MemPool", "Metalhead", "Mux", "NamedArrays", "NumericalIntegration", "OnlineStats", "PGFPlotsX", "Pkg", "PooledArrays", "ProgressMeter", "Query", "RData", "RDatasets", "ROCAnalysis", "Requires", "Revise", "SplitApplyCombine", "Tables", "Test", "TextParse", "UnicodePlots", "ValueHistories", "WebSockets", "Zygote"]
+git-tree-sha1 = "b8cf69e145893cc02e54239aa66aa7e605ae7876"
 repo-rev = "master"
 repo-url = "https://github.com/bcbi/PredictMDExtra.jl"
 uuid = "d14d998a-9e6b-11e8-16d3-6f2879ea456d"
-version = "0.0.5"
+version = "0.1.0"
 
 [[Printf]]
 deps = ["Unicode"]
