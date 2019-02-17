@@ -7,6 +7,7 @@ function _package_list()::Vector{String}
         PredictMDExtra._package_list()
     additional_package_list_raw::Vector{String} = String[
         # "PredictMD",
+        "PredictMDExtra",
         ]
     package_list_raw::Vector{String} = vcat(
         predictmdextra_package_list,
