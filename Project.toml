@@ -1,7 +1,7 @@
 name = "PredictMDFull"
 uuid = "5c0c5c38-9dd5-11e8-3ab7-453bd9ce6c97"
 authors = ["Dilum Aluthge <dilum@aluthge.com>"]
-version = "0.0.5-DEV"
+version = "0.1.0-DEV"
 
 [deps]
 Atom = "c52e3926-4ff0-5f6e-af25-54175e0327b1"
@@ -42,6 +42,7 @@ OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
 PGFPlotsX = "8314cec4-20b6-5062-9cdb-752b83310925"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PooledArrays = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
+PredictMD = "3e7d7328-36f8-4388-bd01-4613c92c7370"
 PredictMDExtra = "d14d998a-9e6b-11e8-16d3-6f2879ea456d"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
