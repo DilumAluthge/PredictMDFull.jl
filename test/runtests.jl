@@ -57,11 +57,7 @@ Test.@testset "Import PredictMD     " begin
     include(joinpath("test_import_predictmd.jl"))
 end
 
-Test.@testset "Test install()" begin
-    include(joinpath("test_install.jl"))
-end
-
-Test.@testset "Import import_all()" begin
+Test.@testset "Test import_all()" begin
     include(joinpath("test_import_all.jl"))
 end
 

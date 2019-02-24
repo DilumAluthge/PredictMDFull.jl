@@ -1,5 +1,5 @@
 ##### Beginning of file
 
-# import PredictMD
+import PredictMD
 
 ##### End of file
