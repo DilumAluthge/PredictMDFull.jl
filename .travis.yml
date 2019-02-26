@@ -12,6 +12,9 @@ branches:
 env:
     global:
         - JULIA_DEBUG="all"
+    matrix:
+        - PREDICTMDFULL_IMPORT_ALL="true"
+        - PREDICTMDFULL_IMPORT_ALL="false"
 
 git:
     depth: 99999999
