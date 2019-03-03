@@ -113,9 +113,9 @@ version = "0.14.0"
 
 [[CUDAapi]]
 deps = ["Libdl", "Logging", "Test"]
-git-tree-sha1 = "350cde12f25d297609369a9acb4c6214211675db"
+git-tree-sha1 = "e1f551ad1c03b3fa2a966794ead05772bff4b064"
 uuid = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
-version = "0.5.4"
+version = "0.6.0"
 
 [[Cassette]]
 deps = ["InteractiveUtils", "LinearAlgebra", "Test"]
@@ -149,9 +149,9 @@ version = "0.6.4"
 
 [[CodecZlib]]
 deps = ["BinaryProvider", "Libdl", "Test", "TranscodingStreams"]
-git-tree-sha1 = "e3df104c84dfc108f0ca203fd7f5bbdc98641ae9"
+git-tree-sha1 = "36bbf5374c661054d41410dc53ff752972583b9b"
 uuid = "944b1d66-785c-5afd-91f1-9de20f533193"
-version = "0.5.1"
+version = "0.5.2"
 
 [[ColorTypes]]
 deps = ["FixedPointNumbers", "Random", "Test"]
@@ -329,9 +329,9 @@ version = "0.19.7"
 
 [[DoubleFloats]]
 deps = ["GenericLinearAlgebra", "LinearAlgebra", "Polynomials", "Random", "Test"]
-git-tree-sha1 = "3466d3735e0ca7f6fddf9f2c36ed9ac502941e9e"
+git-tree-sha1 = "3630ee8c22bca30a6d5b3ea5a890172a446bc172"
 uuid = "497a8b3b-efae-58df-a0af-a86822472b78"
-version = "0.7.3"
+version = "0.7.5"
 
 [[EzXML]]
 deps = ["BinaryProvider", "Libdl", "Printf", "Test"]
@@ -396,9 +396,9 @@ uuid = "9fa8497b-333b-5362-9e8d-4d0656e87820"
 
 [[GLM]]
 deps = ["Distributions", "LinearAlgebra", "Printf", "Random", "Reexport", "SparseArrays", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns", "StatsModels"]
-git-tree-sha1 = "7c3f988031022a26b84c1a5106a5161c7a573960"
+git-tree-sha1 = "2b65aee2c201ac17a97a285e9bfdcb5026c4e220"
 uuid = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
-version = "1.1.0"
+version = "1.1.1"
 
 [[GPUArrays]]
 deps = ["Adapt", "FFTW", "FillArrays", "LinearAlgebra", "Printf", "Random", "Serialization", "StaticArrays", "Test"]
@@ -853,17 +853,17 @@ version = "0.5.1"
 deps = ["Adapt", "Atom", "AutoGrad", "BSON", "CSV", "CSVFiles", "CUDAapi", "Cassette", "ClassImbalance", "Combinatorics", "DataDeps", "DataFrames", "DecisionTree", "DefaultApplication", "Distributions", "Documenter", "FileIO", "Flux", "GLM", "GPUArrays", "GZip", "HTTP", "IterableTables", "JLD2", "Knet", "LIBSVM", "LaTeXStrings", "LinearAlgebra", "Literate", "MLBase", "MbedTLS", "Metalhead", "Mux", "NNlib", "NumericalIntegration", "OnlineStats", "PGFPlotsX", "PackageCompiler", "Pkg", "ProgressMeter", "Query", "RData", "RDatasets", "ROCAnalysis", "Random", "Requires", "Revise", "Statistics", "StatsBase", "StatsModels", "TikzPictures", "TimeSeries", "UnicodePlots", "ValueHistories", "WebSockets", "Zygote"]
 git-tree-sha1 = "2c2f0fec9ab8045c0318e8e4288b942a9b215abd"
 repo-rev = "master"
-repo-url = "https://github.com/bcbi/PredictMD.jl.git"
+repo-url = "https://github.com/DilumAluthge/PredictMD.jl"
 uuid = "3e7d7328-36f8-4388-bd01-4613c92c7370"
 version = "0.23.0"
 
 [[PredictMDExtra]]
-deps = ["Atom", "AxisArrays", "CSV", "CSVFiles", "CUDAapi", "Cassette", "CategoricalArrays", "ClassImbalance", "Combinatorics", "DataDeps", "DataFrames", "DataFramesMeta", "DecisionTree", "DefaultApplication", "Documenter", "FileIO", "Flux", "GLM", "GPUArrays", "HTTP", "IndirectArrays", "InteractiveUtils", "IterableTables", "JLD2", "Knet", "LIBSVM", "Literate", "MLBase", "MbedTLS", "MemPool", "Metalhead", "Mux", "NamedArrays", "NumericalIntegration", "OnlineStats", "PGFPlotsX", "Pkg", "PooledArrays", "ProgressMeter", "Query", "RData", "RDatasets", "ROCAnalysis", "Requires", "Revise", "SplitApplyCombine", "Tables", "Test", "TextParse", "UnicodePlots", "ValueHistories", "WebSockets", "Zygote"]
-git-tree-sha1 = "b8cf69e145893cc02e54239aa66aa7e605ae7876"
+deps = ["Atom", "AxisArrays", "CSV", "CSVFiles", "CUDAapi", "Cassette", "CategoricalArrays", "ClassImbalance", "Combinatorics", "DataDeps", "DataFrames", "DataFramesMeta", "DecisionTree", "DefaultApplication", "Distributions", "Documenter", "FileIO", "Flux", "GLM", "GPUArrays", "GZip", "HTTP", "IndirectArrays", "InteractiveUtils", "IterableTables", "JLD2", "Knet", "LIBSVM", "LinearAlgebra", "Literate", "MLBase", "MbedTLS", "MemPool", "Metalhead", "Mux", "NamedArrays", "NumericalIntegration", "OnlineStats", "PGFPlotsX", "Pkg", "PooledArrays", "ProgressMeter", "Query", "RData", "RDatasets", "ROCAnalysis", "Random", "Requires", "Revise", "SplitApplyCombine", "Statistics", "StatsBase", "StatsModels", "Tables", "Test", "TextParse", "UnicodePlots", "ValueHistories", "Zygote"]
+git-tree-sha1 = "0dab6f566181a51d9bd63ff35b9374333d3b9d9f"
 repo-rev = "master"
-repo-url = "https://github.com/bcbi/PredictMDExtra.jl.git"
+repo-url = "https://github.com/DilumAluthge/PredictMDExtra.jl"
 uuid = "d14d998a-9e6b-11e8-16d3-6f2879ea456d"
-version = "0.1.0"
+version = "0.3.0"
 
 [[Printf]]
 deps = ["Unicode"]
@@ -955,9 +955,9 @@ version = "0.5.2"
 
 [[Revise]]
 deps = ["Distributed", "FileWatching", "InteractiveUtils", "LibGit2", "OrderedCollections", "Pkg", "REPL", "Random", "Test", "UUIDs", "Unicode"]
-git-tree-sha1 = "341be2df64de382559e2cc307e02ed4192f8a8b7"
+git-tree-sha1 = "180959294ae0733fbca94c24611c97af5d7fb936"
 uuid = "295af30f-e4ad-537b-8983-00126c2a3abe"
-version = "1.0.2"
+version = "1.0.3"
 
 [[Rmath]]
 deps = ["BinaryProvider", "Libdl", "Random", "Statistics", "Test"]
@@ -1026,9 +1026,9 @@ version = "0.4.1"
 
 [[StaticArrays]]
 deps = ["InteractiveUtils", "LinearAlgebra", "Random", "Statistics", "Test"]
-git-tree-sha1 = "1eb114d6e23a817cd3e99abc3226190876d7c898"
+git-tree-sha1 = "3841b39ed5f047db1162627bf5f80a9cd3e39ae2"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "0.10.2"
+version = "0.10.3"
 
 [[Statistics]]
 deps = ["LinearAlgebra", "SparseArrays"]
@@ -1036,9 +1036,9 @@ uuid = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [[StatsBase]]
 deps = ["DataStructures", "DelimitedFiles", "LinearAlgebra", "Missings", "Printf", "Random", "SortingAlgorithms", "SparseArrays", "Statistics", "Test"]
-git-tree-sha1 = "7b596062316c7d846b67bf625d5963a832528598"
+git-tree-sha1 = "8f68351fc2600bab59e68406b980b13b2100c472"
 uuid = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
-version = "0.27.0"
+version = "0.28.1"
 
 [[StatsFuns]]
 deps = ["Rmath", "SpecialFunctions", "Test"]
@@ -1088,9 +1088,9 @@ version = "0.4.0"
 
 [[Tables]]
 deps = ["IteratorInterfaceExtensions", "LinearAlgebra", "Requires", "TableTraits", "Test"]
-git-tree-sha1 = "37be2ed169d5771c1ac8d516d3bcb0093c49966e"
+git-tree-sha1 = "5aa45584645393c1717e0cc1f0362c2ea81470a9"
 uuid = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
-version = "0.1.15"
+version = "0.1.17"
 
 [[Test]]
 deps = ["Distributed", "InteractiveUtils", "Logging", "Random"]
@@ -1104,9 +1104,9 @@ version = "0.1.0"
 
 [[TextParse]]
 deps = ["CodecZlib", "DataStructures", "Dates", "DoubleFloats", "Mmap", "Nullables", "PooledArrays", "Random", "Test", "WeakRefStrings"]
-git-tree-sha1 = "989a9b371867e8b3f6546e3c2e62e618b351b45d"
+git-tree-sha1 = "62a5c7f9290c716bb1afb32a0f8905e0f5720d65"
 uuid = "e0df1984-e451-5cb5-8b61-797a481e67e3"
-version = "0.7.4"
+version = "0.7.5"
 
 [[TextWrap]]
 deps = ["Compat", "Test"]
