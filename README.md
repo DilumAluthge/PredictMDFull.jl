@@ -1,12 +1,17 @@
 <!-- Beginning of file -->
 
 # PredictMDFull - Install PredictMD and all of its dependencies
-
 # Main repository: [bcbi/PredictMD.jl](https://github.com/bcbi/PredictMD.jl)
+# Website: [https://predictmd.net](https://predictmd.net)
 
-# Website: [https://www.predictmd.net](https://www.predictmd.net)
+<a href="https://www.repostatus.org/#active"><img src="https://www.repostatus.org/badges/latest/active.svg" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed." /></a>
 
----
+PredictMDFull provides users with a convenient way of installing [PredictMD](https://predictmd.net) and all of its Julia dependencies.
+
+| Table of Contents |
+| ----------------- |
+| [1. Installation](#installation) |
+| [2. CI/CD](#cicd) |
 
 ## Installation
 
@@ -71,11 +76,5 @@ Pkg.add(Pkg.PackageSpec(rev="master", url="https://github.com/bcbi/PredictMDFull
         </tr>
     </tbody>
 </table>
-
-## Repository Status
-
-<a href="https://www.repostatus.org/#wip">
-    <img src="https://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public." />
-</a>
 
 <!-- End of file -->

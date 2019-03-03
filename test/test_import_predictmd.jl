@@ -1,6 +1,5 @@
 ##### Beginning of file
 
-# import PredictMD
-# Test.@test( isa(PredictMD, Module) )
+import PredictMD
 
 ##### End of file

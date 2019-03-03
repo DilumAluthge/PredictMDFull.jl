@@ -1,19 +1,26 @@
 ##### Beginning of file
 
 branches:
-    except:
-        - gh-pages
+    only:
+    - develop
+    - master
+    - staging
+    - trying
+    - /^release\/.*$/ # release branches
+    - /^v[0-9]+\.[0-9]+\.[0-9]+$/ # version tags
 
 env:
     global:
         - JULIA_DEBUG="all"
+    matrix:
+        - PREDICTMDFULL_IMPORT_ALL="true"
+        - PREDICTMDFULL_IMPORT_ALL="false"
 
 git:
     depth: 99999999
 
 julia:
-    - "1.0"
-    - "nightly"
+    - "1.1"
 
 language: julia
 

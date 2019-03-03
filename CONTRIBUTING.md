@@ -73,7 +73,6 @@ git version 2.16.1
 If you do, proceed to Step 2. If you instead receive an error message,
 download and install Git:
 
-- Windows: [https://git-scm.com/download/win](https://git-scm.com/download/win)
 - macOS: [https://git-scm.com/download/mac](https://git-scm.com/download/mac)
 - GNU/Linux: [https://git-scm.com/download/linux](https://git-scm.com/download/linux)
 
@@ -128,7 +127,6 @@ If you do, then you are good to go. If you instead receive the
 message ```git: 'flow' is not a git command```, download and
 install git-flow:
 
-- Windows: [https://github.com/nvie/gitflow/wiki/Windows](https://github.com/nvie/gitflow/wiki/Windows)
 - macOS: [https://github.com/nvie/gitflow/wiki/Mac-OS-X](https://github.com/nvie/gitflow/wiki/Mac-OS-X)
 - GNU/Linux: [https://github.com/nvie/gitflow/wiki/Linux](https://github.com/nvie/gitflow/wiki/Linux)
 
@@ -160,7 +158,6 @@ Compression: Uncompressed, ZIP, ZLIB, BZIP2
 ```
 If you do, then go to Step 2. If you instead see an error,
 download and install GPG:
-- Windows: [https://gpg4win.org/download.html](https://gpg4win.org/download.html)
 - macOS: [https://gpgtools.org/](https://gpgtools.org/)
 - GNU/Linux: [https://gnupg.org/download/#sec-1-2](https://gnupg.org/download/#sec-1-2)
 
@@ -324,32 +321,47 @@ message (e.g. "Bump version number"), save the file, and quit the
 editor.
 
 #### Step 11:
+Run the PredictMDFull test suite on your local machine:
+
+```bash
+julia --project -e 'import Pkg; Pkg.instantiate(); Pkg.build("PredictMDFull"); Pkg.test("PredictMDFull");'
+```
+
+If you receive the message "Testing PredictMDFull tests passed", then the
+tests passed.
+
+If you do not receive that message, then one or more of the tests failed.
+
+**You may not proceed to the next step until all of the tests pass on your
+local machine.**
+
+#### Step 12:
 Push the release branch to GitHub.
 
 ```bash
 git push origin release/v3.6.0
 ```
 
-#### Step 12:
-Wait for all of the tests to pass. You can check on
-the status of the tests by going to
+#### Step 13:
+Wait for all of the continuous integration (CI) tests to pass. You can
+check on the status of the CI tests by going to
 [https://github.com/bcbi/PredictMDFull.jl/branches/yours](https://github.com/bcbi/PredictMDFull.jl/branches/yours)
 and scrolling down to find your release branch.
 
-* A yellow dot indicates that the tests are still running. Click on the
+* A yellow dot indicates that the CI tests are still running. Click on the
 yellow dot to see which tests are still running.
-* A red "X" indicates that one or more of the tests failed. Click on the
+* A red "X" indicates that one or more of the CI tests failed. Click on the
 red "X" to see which tests failed.
-* A green check mark indicates that all of the tests passed.
+* A green check mark indicates that all of the CI tests passed.
 
-**You must wait for all of the tests to pass (green check mark) before
+**You must wait for all of the CI tests to pass (green check mark) before
 you can continue.**
 
-*Sometimes, one of the build jobs will fail because a download timed out.
-This is especially common with the Mac builds on Travis. You can usually
+*Sometimes, one of the CI tests will fail because a download timed out.
+This is especially common with Travis CI on Mac. You can usually
 resolve this error by restarting the failed build.*
 
-#### Step 13:
+#### Step 14:
 Once all of the tests have passed, you can finish
 tagging your release using the git-flow tools:
 
@@ -372,7 +384,7 @@ the file, and close the editor.
 Once you have finished all of the commits and tags, you must verify
 that you have correctly signed the release tag:
 
-#### Step 14:
+#### Step 15:
 Verify that you have correctly signed the release tag:
 ```bash
 git tag -v v3.6.0
@@ -393,7 +405,7 @@ point, you should
 and mention [@DilumAluthge](https://github.com/DilumAluthge) in the
 issue body.
 
-#### Step 15:
+#### Step 16:
 Temporarily modify the branch protections for
 the `master` and `develop` branches:
 
@@ -407,16 +419,16 @@ Now do the same thing for the `develop` branch: go to
 to the bottom of the page, and click the green "Save changes" button.
 You may be asked to enter your GitHub password.
 
-#### Step 16:
+#### Step 17:
 Push the new release to GitHub:
 
 ```bash
 git push origin master # push the updated "master" branch
 git push origin develop # push the updated "develop" branch
-git push origin --tags # push the new "v3.6.0" tag
+git push origin --tags # push the newly created tag
 ```
 
-#### Step 17:
+#### Step 18:
 Create a release on GitHub using the tag you just
 created, signed, and pushed. First, go to
 [https://github.com/bcbi/PredictMDFull.jl/releases/new](https://github.com/bcbi/PredictMDFull.jl/releases/new).
@@ -426,7 +438,7 @@ text box that reads "Release title", type an appropriate title, such
 as "PredictMDFull version 3.6.0". Finally, click the green
 "Publish release" button.
 
-#### Step 18:
+#### Step 19:
 Update the version number in the `develop` branch:
 
 First, use Semantic Versioning ([https://semver.org](https://semver.org))
@@ -466,7 +478,7 @@ version = "4.0.0-DEV"
 (the line that begins with `version =`.
 Do not change any of the other lines.**
 
-#### Step 19:
+#### Step 20:
 Commit your changes:
 
 ```bash
@@ -478,13 +490,13 @@ An commit message editor will open. Type an appropriate commit
 message (e.g. "Bump version number"), save the file, and quit
 the editor.
 
-#### Step 20:
+#### Step 21:
 Push the updated develop branch:
 ```bash
 git push origin develop
 ```
 
-#### Step 21:
+#### Step 22:
 Re-enable the branch protection settings:
 
 `master` branch: go to
@@ -497,7 +509,7 @@ You may be asked to enter your GitHub password.
 to the bottom of the page, and click the green "Save changes" button.
 You may be asked to enter your GitHub password.
 
-#### Step 22:
+#### Step 23:
 Delete the release branch, which is no longer needed. To do
 this, go to
 [https://github.com/bcbi/PredictMDFull.jl/branches/yours](https://github.com/bcbi/PredictMDFull.jl/branches/yours),
