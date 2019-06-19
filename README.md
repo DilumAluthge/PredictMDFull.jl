@@ -40,9 +40,10 @@ the recommended method of installing PredictMD.
 ## Installation
 
 PredictMDFull is registered in the Julia General registry. Therefore, to
-install PredictMDFull, simply open Julia and run the following three lines:
+install PredictMDFull, simply open Julia and run the following four lines:
 ```julia
 import Pkg
+Pkg.activate("PredictMDEnvironment"; shared = true)
 Pkg.add("PredictMDFull")
 import PredictMDFull
 ```
