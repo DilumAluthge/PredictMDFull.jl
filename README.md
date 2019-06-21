@@ -1,33 +1,28 @@
 # PredictMDFull - Install PredictMD and all of its dependencies
 
-<table>
-    <tbody>
-        <tr>
-            <td>Bors</td>
-            <td><a href="https://bors.tech">
-            <img src="https://bors.tech/images/badge_small.svg"/></a></td>
-        </tr>
-        <tr>
-            <td>Travis CI</td>
-            <td><a
-            href="https://travis-ci.org/bcbi/PredictMDFull.jl/branches">
-            <img
-            src=
-            "https://travis-ci.org/bcbi/PredictMDFull.jl.svg?branch=master"
-            /></a></td>
-        </tr>
-        <tr>
-            <td>CodeCov</td>
-            <td>
-            <a
-        href="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master">
-            <img
-            src=
+<p>
+<a href="https://doi.org/10.5281/zenodo.1291209">
+<img
+src="https://zenodo.org/badge/109460252.svg"/>
+</a>
+</p>
+
+<p>
+<a href="https://bors.tech">
+<img src="https://bors.tech/images/badge_small.svg"/></a>
+<a
+href="https://travis-ci.org/bcbi/PredictMDFull.jl/branches">
+<img
+src=
+"https://travis-ci.org/bcbi/PredictMDFull.jl.svg?branch=master"
+/></a>
+<a
+href="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master">
+<img
+src=
 "https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master/graph/badge.svg"
-            /></a></td>
-        </tr>
-    </tbody>
-</table>
+/></a>
+</p>
 
 PredictMDFull provides users with a convenient way of installing
 [PredictMD](https://predictmd.net) and all of its Julia dependencies. It is
