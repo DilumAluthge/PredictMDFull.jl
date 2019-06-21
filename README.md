@@ -4,6 +4,11 @@
 <img
 src="https://zenodo.org/badge/109460252.svg"/>
 </a>
+
+PredictMDFull provides users with a convenient way of installing
+[PredictMD](https://predictmd.net) and all of its Julia dependencies. It is
+the recommended method of installing PredictMD.
+
 <a href="https://bors.tech">
 <img src="https://bors.tech/images/badge_small.svg"/></a>
 <a
@@ -18,10 +23,6 @@ href="https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master">
 src=
 "https://codecov.io/gh/bcbi/PredictMDFull.jl/branch/master/graph/badge.svg"
 /></a>
-
-PredictMDFull provides users with a convenient way of installing
-[PredictMD](https://predictmd.net) and all of its Julia dependencies. It is
-the recommended method of installing PredictMD.
 
 | Table of Contents |
 | ----------------- |
