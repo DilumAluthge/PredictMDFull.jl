@@ -5,22 +5,25 @@ Test.@testset "PredictMDFull.jl" begin
     import Pkg # stdlib
     import Test # stdlib
 
-    @info(string("Julia depot paths: "), Base.DEPOT_PATH)
-    @info(string("Julia load paths: "), Base.LOAD_PATH)
+    @debug(string("Julia depot paths: "), Base.DEPOT_PATH)
+    @debug(string("Julia load paths: "), Base.LOAD_PATH)
 
-    @info(string("Julia version info: ",))
-    InteractiveUtils.versioninfo(verbose=true)
+    logger = Base.CoreLogging.current_logger_for_env(Base.CoreLogging.Debug, Symbol(splitext(basename(something(@__FILE__, "nothing")))[1]), something(@__MODULE__, "nothing"))
+    if !isnothing(logger)
+        @debug(string("Julia version debug: ",))
+        InteractiveUtils.versiondebug(verbose=true)
+    end
 
-    @info(string("Attempting to import PredictMDFull...",))
+    @debug(string("Attempting to import PredictMDFull...",))
     import PredictMDFull
-    @info(string("Successfully imported PredictMDFull.",))
-    @info(string("PredictMDFull version: "),PredictMDFull.version(),)
-    @info(string("PredictMDFull package directory: "),PredictMDFull.package_directory(),)
+    @debug(string("Successfully imported PredictMDFull.",))
+    @debug(string("PredictMDFull version: "),PredictMDFull.version(),)
+    @debug(string("PredictMDFull package directory: "),PredictMDFull.package_directory(),)
 
     PredictMDFull.import_all()
 
-    @info(string("Julia depot paths: "), Base.DEPOT_PATH)
-    @info(string("Julia load paths: "), Base.LOAD_PATH)
+    @debug(string("Julia depot paths: "), Base.DEPOT_PATH)
+    @debug(string("Julia load paths: "), Base.LOAD_PATH)
 
     logger = Base.CoreLogging.current_logger_for_env(Base.CoreLogging.Debug, Symbol(splitext(basename(something(@__FILE__, "nothing")))[1]), something(@__MODULE__, "nothing"))
     if !isnothing(logger)
