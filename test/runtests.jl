@@ -11,7 +11,7 @@ Test.@testset "PredictMDFull.jl" begin
     logger = Base.CoreLogging.current_logger_for_env(Base.CoreLogging.Debug, Symbol(splitext(basename(something(@__FILE__, "nothing")))[1]), something(@__MODULE__, "nothing"))
     if !isnothing(logger)
         @debug(string("Julia version debug: ",))
-        InteractiveUtils.versiondebug(verbose=true)
+        InteractiveUtils.versioninfo(verbose=true)
     end
 
     @debug(string("Attempting to import PredictMDFull...",))
