@@ -1,1 +1,1 @@
-module TestModuleA end
+module PredictMDFullTestModuleA end
