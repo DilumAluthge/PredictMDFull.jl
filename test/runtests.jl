@@ -22,15 +22,15 @@ Test.@testset "PredictMDFull.jl" begin
     @debug(string("Julia load paths: "), Base.LOAD_PATH)
 
     Test.@testset "Unit tests           " begin
-        testmodulea_filename::String = joinpath("TestModuleA", "TestModuleA.jl")
+        testmodulea_filename::String = joinpath("PredictMDFullTestModuleA", "PredictMDFullTestModuleA.jl")
         testmoduleb_filename::String  = joinpath(
-            "TestModuleB", "directory1", "directory2", "directory3",
-            "directory4", "directory5", "TestModuleB.jl",
+            "PredictMDFullTestModuleB", "directory1", "directory2", "directory3",
+            "directory4", "directory5", "PredictMDFullTestModuleB.jl",
             )
-        testmodulec_filename::String  = joinpath(mktempdir(), "TestModuleC.jl")
+        testmodulec_filename::String  = joinpath(mktempdir(), "PredictMDFullTestModuleC.jl")
         rm(testmodulec_filename; force = true, recursive = true)
         open(testmodulec_filename, "w") do io
-            write(io, "module TestModuleC end")
+            write(io, "module PredictMDFullTestModuleC end")
         end
         include(testmodulea_filename)
         include(testmoduleb_filename)

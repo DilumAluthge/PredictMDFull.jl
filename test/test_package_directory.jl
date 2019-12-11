@@ -6,21 +6,21 @@ Test.@test( isdir(PredictMDFull.package_directory("ci")) )
 
 Test.@test( isdir(PredictMDFull.package_directory("ci", "travis")) )
 
-Test.@test( isdir(PredictMDFull.package_directory(TestModuleA)) )
+Test.@test( isdir(PredictMDFull.package_directory(PredictMDFullTestModuleA)) )
 
-Test.@test( isdir(PredictMDFull.package_directory(TestModuleB)) )
+Test.@test( isdir(PredictMDFull.package_directory(PredictMDFullTestModuleB)) )
 
 Test.@test( isdir( PredictMDFull.package_directory(
-            TestModuleB, "directory2",
+            PredictMDFullTestModuleB, "directory2",
             ) ) )
 
 Test.@test( isdir( PredictMDFull.package_directory(
-            TestModuleB, "directory2", "directory3",
+            PredictMDFullTestModuleB, "directory2", "directory3",
             ) ) )
 
 Test.@test_throws(
     ErrorException,
-    PredictMDFull.package_directory(TestModuleC),
+    PredictMDFull.package_directory(PredictMDFullTestModuleC),
     )
 
 ##### End of file
